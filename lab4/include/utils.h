@@ -1,0 +1,12 @@
+#pragma once
+#include <math.h>
+
+class Utils
+{
+private:
+    static constexpr double EPS = 0.0001;
+
+public:
+    static bool eqDouble(double a, double b);
+    static double STriangle(double a, double b, double c);
+};
